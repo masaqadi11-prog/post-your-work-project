@@ -7,4 +7,5 @@ New Documentation
 
 This could include:
 
-- my new documentation 
+- my new documentation
+- new commits
