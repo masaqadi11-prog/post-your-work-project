@@ -1,27 +1,22 @@
->**Note**: Please **fork** this Udacity repository so you have a **remote** repository in **your** GitHub account. Then you can clone the remote repository to your local machine. Later, as a part of the project, you will push your changes to the remote repository in your GitHub account.
+# US Bikeshare Data Analysis
 
+This project explores bikeshare usage data from three major U.S. cities: Chicago, New York City, and Washington, D.C. Through an interactive command-line interface, users can analyze various statistics about bike trips, including the most common travel times, popular stations, trip durations, and user demographics.
 
-# Project Title
+# Date created
+November 16, 2025
 
-Describe what your project is about and what it does
+## How to Use
 
-## Information about how to use your project
+1. Ensure that Python 3 and the pandas library are installed.
+2. Place all CSV data files in the same folder as bikeshare.py.
+3. Run the program using: python bikeshare.py
+4. Follow the on-screen prompts to choose a city, month, and day for analysis.
+5. Review the generated statistics and, if desired, display the raw data in increments of five rows.
 
-This could include:
+## Files used
 
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
-
-## Contribution guidelines
-
-If you welcome contributions, provide guidelines on how others can contribute to your project.
-
-## Credits
-
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
-## Date created
-
-Include the date you created this project and README file.
+- bikeshare.py - Main Python script for data analysis
+- chicago.csv - Bikeshare data for Chicago
+- new_york_city.csv - Bikeshare data for New York City  
+- washington.csv - Bikeshare data for Washington DC
+- .gitignore - Excludes CSV files from version control
